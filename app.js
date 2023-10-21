@@ -436,17 +436,3 @@
 // var for 
 
 // QUESTION 03
-
-// var heading = 'Rules for naming JS variables'
-// var node = document.createElement("h1")
-// node.innerHTML = heading
-// document.body.appendChild(node)
-// var para = 'Variable names can only contain numbers, $,letters and - \n .For example $my_1stVariable'
-// document.write(para,"</br>")
-// var para = 'Variables must begin with a letters,$ or -. For example $name, _name or name'
-// document.write(para,"</br>")
-// var para = 'Variable names are case sensitive'
-// document.write(para,"</br>")
-// var para = 'Variable names should not be JS keywords'
-// document.write(para,"</br>")
->>>>>>> a805e8af8f64a13d5c6259a2cdc7350144bd32f9
