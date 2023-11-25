@@ -93,7 +93,7 @@
 // document.write(name + ' ordered ' + quantity + ' ' + product+'(s) on ' + storeName)
 
 // CHATPER 04
-// C4QUESTION 01
+// QUESTION 01
 // var variable_1
 // var variable_2
 // var variable_3
@@ -519,3 +519,104 @@
 // } else if(op === '%'){
 //     alert(num1 % num2)
 // }
+
+// CHAPTER 14 -16
+// QUESTION 01
+// const stdNames = [];
+// QUESTION 02
+// var stdName = new Array()
+// QUESTION 03
+// var stringArray = ['waqar' , 'ashar']
+// QUESTION 04
+// var numbArray = [1 , 2 , 3]
+// QUESTION 05
+// var booleanArray = [true , false]
+// QUESTION 06
+// var mixedArray = ['waqat' , 10 , true]
+// QUESTION 07
+// var qualification = ['SSC' , 'HSC' , 'BCS' , 'BS' , 'BCOM' , 'MS' , 'M.Phil' , 'PhD']
+// var sp = '</br>'
+// document.write(`<h1>Qualification</h1>`)
+// for(i = 0 ; i <= qualification.length-1 ; i++){
+//     document.write(`${[i + 1]}) ${qualification[i]} ${sp}`)
+// }
+// QUESTION 08
+// var stdName = ['Michael' , 'John' , 'Tony']
+// var StdMark = [320 , 230 , 480]
+// var totalMarks = 500
+// var sp = '<br/>'
+// for(i = 0 ; i <= stdName.length-1 ; i++){
+//     var res = (StdMark[i]/totalMarks)*100
+//     document.write(`Score of ${stdName[i]} is ${StdMark[i]}. Percentage: ${res}% ${sp}`)
+// }
+// QUESTION 09
+// var color = []
+// var colorInput = prompt("ENTER COLOR NAME YOU WANT TO ADD AT BEGGING OF AN ARRAY" , 'RED')
+// color.unshift(colorInput)
+// document.write("A) " + ' ' + color + "</br>")
+// var colorInput = prompt("ENTER COLOR NAME YOU WANT TO ADD AT END OF AN ARRAY" , 'YELLOW')
+// color.push(colorInput)
+// document.write("B) " + ' ' + color + "</br>")
+// var colorInput1 = prompt("ENTER COLOR NAME YOU WANT TO ADD AT BEGGING OF AN ARRAY" , 'RED')
+// var colorInput2 = prompt("ENTER COLOR NAME YOU WANT TO ADD AT BEGGING OF AN ARRAY" , 'blue')
+// color.unshift(colorInput1)
+// color.unshift(colorInput2)
+// document.write("C)" + ' ' + color + "</br>")
+// color.shift()
+// document.write("D)" + ' ' + color + "</br>")
+// color.pop()
+// document.write("E)" + ' ' + color + "</br>")
+// var index = +prompt("enter index number you want to add color" , 1)
+// var usercolor = prompt("enter color name you want to add" , 'orange')
+// color.splice(index , 0 , usercolor)
+// document.write("F)" + ' ' + color + "</br>")
+// var startindex = +prompt("enter index number you want to delete color" , 0)
+// var endindex = +prompt("enter color index you want to delete" , 1)
+// color.splice(startindex , endindex)
+// document.write("G)" + ' ' + color + "</br>")
+// QUESTION 10
+// const studentScores = [320, 230, 480, 120];
+// var sp = '<br/>'
+// document.write(`Original Array = ${studentScores} ${sp}`);
+// for (let i = 0; i <br studentScores.length; i++) {
+//   for (let j = i + 1; j < studentScores.length; j++) {
+//     if (studentScores[i] > studentScores[j]) {
+//       const temp = studentScores[i];
+//       studentScores[i] = studentScores[j];
+//       studentScores[j] = temp;
+//     }
+//   }
+// }
+// document.write(`Sorted Array = ${studentScores}`);
+// QUESTION 11
+// var cities = ['karachi' , 'lahore' , 'islamabad' , 'quetta' , 'peshawar']
+// var sp = '</br>'
+// var copy_city = cities.slice(2 , 4)
+// document.write(`${cities} ${sp} `)
+// document.write(copy_city)
+// QUESTION 12
+// var array = ['this' , 'is' , 'my' , 'cat']
+// var sp = "</br>"
+// document.write(`<h1>ARRAY</h1> ${array} ${sp}`)
+// var join = array.join(" ")
+// document.write(`<h1>STRING</h1> ${join}`)
+// QUESTION 13
+// var fifo_array = []
+// fifo_array.push('keyboard')
+// fifo_array.push('mouse')
+// fifo_array.push('printer')
+// fifo_array.push('monitor')
+// document.write("<h1>DEVICES<h1>" + fifo_array)
+// document.write('<h1>FIFO<h1>' + 'OUTPUT' +'</br>' + fifo_array.shift() + '<br/>' + 'OUTPUT' + "</br>" + fifo_array.shift() + '<br/>' + 'OUTPUT' + '</br>' + fifo_array.shift() + '<br/>' + 'OUTPUT' + '<br/>' fifo_array.shift() )
+// QUESTION 14
+// var lifo_array = []
+// lifo_array.push('keyboard')
+// lifo_array.push('mouse')
+// lifo_array.push('printer')
+// lifo_array.push('monitor')
+// document.write("<h1>DEVICES<h1>" + lifo_array)
+// document.write('<h1>LIFO<h1>' + 'OUTPUT' +'</br>' + lifo_array.pop() + '<br/>' + 'OUTPUT' + "</br>" + lifo_array.pop() + '<br/>' + 'OUTPUT' + '</br>' + lifo_array.pop() + '<br/>' + 'OUTPUT' + '<br/>' + lifo_array.pop() )
+// QUESTION 15
+// var phone=["Apple", "Samsung", "Motorola", "Nokia", "Sony" , "Haier"]
+
+//  document.write("<br><select id=phone> <option value=apple>Apple</option>  <option value=samsung>Samsung</option> <option value=Motorola>Motorola</option> <option value=Nokia>Nokia</option><option value=Sony>Sony</option> <option value=Haier>Haier</option></select>" )
